@@ -42,7 +42,7 @@ function smoothScrollTo(target, duration) {
      anchor.addEventListener('click', function(e) {
        e.preventDefault(); 
        const targetId = this.getAttribute('href');
-       smoothScrollTo(targetId, 1000); 
+       smoothScrollTo(targetId, 100); 
      });
    });
    
