@@ -331,7 +331,7 @@ header.sticky {
 .layer { 
     width: 100%;
     height: 0;
-    background: linear-gradient(var(--main-color) , var(--bg-color));
+    background: linear-gradient(var(--main-color) , black);
     position: absolute;
     border-radius: 8px;
     left: 0;
@@ -397,7 +397,7 @@ header.sticky {
     padding: 10px;
     border-radius: 8px;
     font-size:16px ;
-    color: var(--main-color);
+    color: var(--text-color);
     background: var(--main-color);
     
    
